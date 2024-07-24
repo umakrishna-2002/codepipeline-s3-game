@@ -18,6 +18,7 @@ Ideas for additional features:
 
 ## The Deployment Environment
 The code will be deployed and hosted in S3.
+- The S3 service has 5GB free standard storage for 12 months in free-tier
 
 ## The Deployment Pipeline
 The pipeline is created using AWS Code Pipeline.  The pipeline pulls the code from GitHub, and deploys it to S3 whenever a change is detected in the code.
